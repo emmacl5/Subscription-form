@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Subscribe Form</title>
+    <link href="global1.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Reader Subscription Form</h1>
+    <form class="subform" method="POST" action="submit.html">
+      <p>
+        <label for="name" class="label">What is your name?</label>
+        <input type="text" name="name" id="name" />
+      </p>
+      <p>
+        <label for="name" class="label">What is your email address</label>
+        <input type="text" name="name" id="name" />
+      </p>
+      <p>
+        <span class="label">Rate your apartment Farming Skills</span>
+        <label for="">
+          <input name="skill" type="radio" value="novice" />Novice
+        </label>
+        <label for="">
+          <input name="skill" type="radio" value="intermediate" />Intermediate
+        </label>
+        <label for="">
+          <input name="skill" type="radio" value="Advanced" /> Advanced
+        </label>
+      </p>
+      <p>
+        <label for="refer" class="label">Where did you hear about us?</label>
+        <select name="refer" id="refer">
+          <option value="null">Select one</option>
+          <option value="1">Friends</option>
+          <option value="2">Family</option>
+          <option value="3">Partners</option>
+          <option value="4">At Work</option>
+        </select>
+      </p>
+      <p>
+        <label for="comments" class="label">Any additional comments?</label>
+        <textarea name="comments" cols="35" rows="5" id="comments"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Subscribe" />
+      </p>
+    </form>
+  </body>
+</html>
